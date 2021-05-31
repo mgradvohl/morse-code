@@ -53,8 +53,8 @@ void PreOrdem(nodoArvore *root){
         if(root->valor != '*')
             printf("%s %c\n", root->codigoMorse,root->valor);
     
-    PreOrdem(root->esquerda);
-    PreOrdem(root->direita);
+        PreOrdem(root->esquerda);
+        PreOrdem(root->direita);
     }
 }
 
